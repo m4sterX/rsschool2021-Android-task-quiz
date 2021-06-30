@@ -65,7 +65,6 @@
                 android:orientation="horizontal"
                 app:layout_constraintGuide_end="16dp" />
 
-
             <TextView
                 android:id="@+id/question"
                 android:layout_width="0dp"
@@ -75,6 +74,7 @@
                 app:layout_constraintStart_toStartOf="@id/margin_start_guideline"
                 app:layout_constraintTop_toTopOf="@id/margin_top_guideline"
                 tools:text="Est-ce qu'il travaille a Paris?" />
+
 
             <RadioGroup
                 android:id="@+id/radio_group"
@@ -88,7 +88,8 @@
                     android:id="@+id/option_one"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    tools:text="Option 1" />
+                    tools:text="Option 1"
+                    />
 
                 <RadioButton
                     android:id="@+id/option_two"
@@ -114,6 +115,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     tools:text="Option 5" />
+
 
             </RadioGroup>
         </androidx.constraintlayout.widget.ConstraintLayout>
